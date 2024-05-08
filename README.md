@@ -216,8 +216,7 @@ namespace AssemblyMaster.Data
     {
         //Cada Propriedade equivale a uma tabela no Banco
         public DbSet<User> USERS { get; set; }
-        public DbSet<Role> ROLES { get; set; }
-        public DbSet<Product> PRODUCTS {get; set;}        
+        public DbSet<Role> ROLES { get; set; }       
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         {
